@@ -1,1 +1,1 @@
-# front-end-sample2
+# This is second sample of minor project 
