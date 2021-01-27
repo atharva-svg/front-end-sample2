@@ -1,0 +1,81 @@
+@font-face {
+  font-family: gilam;
+  src: url(/fonts/Gilam.otf);
+}
+@font-face {
+  font-family: tc;
+  src: url(/fonts/tc.otf);
+}
+body {
+  background: #fef6e4;
+}
+.everything {
+  position: relative;
+  margin: 0vh;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: 900;
+  font-family: gilam;
+}
+
+/*-------------------------- START TOP --------------------------*/
+.top {
+  color: #001858;
+  padding: 2%;
+  height: 2vh;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.top a {
+  color: #001858;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn a {
+  font-family: tc;
+}
+.nav-menu li {
+  padding: 20px;
+  display: inline-block;
+  font-size: 1.2em;
+}
+.nav-menu li a {
+  font-family: tc;
+}
+
+/*-------------------------- END TOP --------------------------*/
+
+/*-------------------------- START CONTAINER --------------------------*/
+.container {
+  padding: 2%;
+  text-align: center;
+  font-family: tc;
+  color: #172c66;
+}
+
+/*-------------------------- START CONTAINER --------------------------*/
+
+/*-------------------------- START BOTTOM --------------------------*/
+.bottom {
+  padding: 2%;
+  height: 10vh;
+}
+.brand a {
+  font-family: tc;
+  color: #001858;
+  outline: none;
+  text-decoration: none;
+}
+/*-------------------------- END BOTTOM --------------------------*/
